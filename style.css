@@ -1,0 +1,21 @@
+body {
+    color: white;
+    background-color: black;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 400%;
+    background-image: url("images/bck.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
