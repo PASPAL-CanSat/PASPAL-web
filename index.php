@@ -62,14 +62,18 @@
         <a href="#home" class="w3-bar-item w3-button">HOME</a>
         <a href="#about" class="w3-bar-item w3-button w3-hide-small">O NÁS</a>
         <a href="#satelit" class="w3-bar-item w3-button w3-hide-small">NÁŠ SATELIT</a>
+        <a href="#team" class="w3-bar-item w3-button w3-hide-small">TEAM</a>
         <a href="#news" class="w3-bar-item w3-button w3-hide-small">NEWS</a>
+        <a href="#sponzors" class="w3-bar-item w3-button w3-hide-small">SPONZORS</a>
     </div>
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
         <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">O NÁS</a>
         <a href="#satelit" class="w3-bar-item w3-button" onclick="toggleFunction()">NÁŠ SATELIT</a>
-        <a href="#news" class="w3-bar-item w3-button" onclick="toggleFunction()">NOVINKY</a>
+        <a href="#team" class="w3-bar-item w3-button w3-hide-small">TEAM</a>
+        <a href="#news" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS</a>
+        <a href="#sponzors" class="w3-bar-item w3-button w3-hide-small">SPONZORS</a>
     </div>
 </div>
 
@@ -203,7 +207,7 @@
     </div>
 </div>
 
-<div class="w3-content w3-container w3-padding-64" id="team">
+<div class="w3-content w3-container w3-padding-64" id="sponzors">
     <h3 class="w3-center">Děkujeme ❤️️</h3>
     <p class="w3-center"><em></em></p>
     <p></p>
