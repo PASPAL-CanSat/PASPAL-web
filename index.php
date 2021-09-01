@@ -317,11 +317,8 @@ if(isset($_SESSION['lang'])){
         </div>
     </div>
     <div class="w3-row w3-hide-small w3-hide-medium">
-        <div class="w3-col s1">
-            <p></p>
-        </div>
         <div class="w3-col s2">
-            <strong><a href="http://www.elektropenco.cz/" target="_blank"><p style="text-align: center; padding: 10px;">Elektro Penco</p></a></strong>
+            <p></p>
         </div>
         <div class="w3-col s2">
             <center><a href="https://www.chapes.cz/" target="_blank"><img src="images/chapes.png" class="w3-bar-item w3-circle" style="width:100%;max-width:95px;"></a></center>
@@ -333,16 +330,13 @@ if(isset($_SESSION['lang'])){
             <center><a href="https://www.o2.cz/" target="_blank"><img src="images/o2.png" class="w3-bar-item" style="width:100%;max-width:110px;"></a></center>
         </div>
         <div class="w3-col s2">
-            <strong><a href="http://www.onyxmedia.cz/" target="_blank"><p style="text-align: center; padding: 10px;">onyxmedia</p></a></strong>
+            <center><a href="https://www.solartec.eu/" target="_blank"><img src="images/SOLARTEC.jpeg" class="w3-bar-item" style="width:100%;max-width:150px;padding-top: 20px;"></a></center>
         </div>
-        <div class="w3-col s1">
+        <div class="w3-col s2">
             <p></p>
         </div>
     </div>
     <div class="w3-row w3-hide-small w3-hide-medium">
-        <div class="w3-col s3">
-            <p></p>
-        </div>
         <div class="w3-col s2">
             <strong><a href="https://www.facebook.com/stepan.sebela.7" target="_blank"><p style="text-align: center; padding: 10px;">Šebela Štěpán</p></a></strong>
         </div>
@@ -352,8 +346,14 @@ if(isset($_SESSION['lang'])){
         <div class="w3-col s2">
             <strong><a href="https://www.facebook.com/petr.gres.3" target="_blank"><p style="text-align: center; padding: 10px;">Petr Gřes</p></a></strong>
         </div>
-        <div class="w3-col s3">
-            <p></p>
+        <div class="w3-col s2">
+            <strong><p style="text-align: center; padding: 10px;">Letiště Bahno</p></strong>
+        </div>
+        <div class="w3-col s2">
+            <strong><a href="http://www.elektropenco.cz/" target="_blank"><p style="text-align: center; padding: 10px;">Elektro Penco</p></a></strong>
+        </div>
+        <div class="w3-col s2">
+            <strong><a href="http://www.onyxmedia.cz/" target="_blank"><p style="text-align: center; padding: 10px;">onyxmedia</p></a></strong>
         </div>
     </div>
 
