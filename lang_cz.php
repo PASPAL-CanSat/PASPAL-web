@@ -35,6 +35,8 @@ define("_TEXT7", "Vše ze sociálních sítí");
 
 define("_TEXT8", "Děkujeme");
 
+define("_TEXT9", "GALERIE");
+
 define("_BUTTON1", "Zpět nahoru");
 define("_VERSION", "Verze");
 define("_TELCISLO", "Tel. Číslo");

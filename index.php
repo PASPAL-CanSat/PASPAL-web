@@ -31,6 +31,8 @@ if(isset($_SESSION['lang'])){
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
     <link rel="icon" href="images/logo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -93,7 +95,7 @@ if(isset($_SESSION['lang'])){
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
     <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">26</span><br>
+        <span class="w3-xlarge">28</span><br>
         <?= _DATA1 ?>
     </div>
     <div class="w3-quarter w3-section">
@@ -101,11 +103,11 @@ if(isset($_SESSION['lang'])){
         <?= _DATA2 ?>
     </div>
     <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">550</span>+<br>
+        <span class="w3-xlarge">900</span>+<br>
         <?= _DATA3 ?>
     </div>
     <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">0</span><br>
+        <span class="w3-xlarge">1</span><br>
         <?= _DATA4 ?>
     </div>
 </div>
@@ -131,12 +133,22 @@ if(isset($_SESSION['lang'])){
 <div class="w3-content w3-container w3-padding-64" id="satelit">
     <h3 class="w3-center">SpaceCan</h3>
     <p class="w3-center"><?= _TEXT5 ?></p>
-<!--
     <div class="w3-content w3-display-container">
-        <img class="mySlides" src="images/moon.jpg" style="width:100%">
-        <img class="mySlides" src="images/bck.jpg" style="width:100%">
-        <img class="mySlides" src="images/moon.jpg" style="width:100%">
-        <img class="mySlides" src="images/bck.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/1.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/2.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/3.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/4.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/5.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/6.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/7.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/8.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/9.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/10.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/11.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/12.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/13.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/14.jpg" style="width:100%">
+        <img class="mySlides" src="images/galerie/15.jpg" style="width:100%">
 
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
@@ -160,7 +172,6 @@ if(isset($_SESSION['lang'])){
             x[slideIndex-1].style.display = "block";
         }
     </script>
--->
 </div>
 
 <div class="bgimg-2 w3-display-container">
@@ -358,6 +369,113 @@ if(isset($_SESSION['lang'])){
     </div>
 
     <iframe class="w3-hide-large" src="phone-sponzors.html" style="border: 2px solid; width: 100%; height: 300px;"></iframe>
+</div>
+
+<div class="bgimg-2 w3-display-container">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide"><strong><?= _TEXT9 ?></strong></span>
+    </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="news">
+    <p></p>
+    <div class="w3-row">
+        <section>
+            <div class="rt-container">
+                <div class="col-rt-12">
+                    <div class="Scriptcontent">
+                        <section>
+                            <!-- Photos by Daniel J. Schwarz (unsplash.com/@danieljschwarz) -->
+                            <div class="gallery">
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4031.jpg" data-src="images/ostatni/IMG_4031.jpg" data-image="images/ostatni/IMG_4031.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4033.jpg" data-src="images/ostatni/IMG_4033.jpg" data-image="images/ostatni/IMG_4033.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4040.jpg" data-src="images/ostatni/IMG_4040.jpg" data-image="images/ostatni/IMG_4040.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4041.jpg" data-src="images/ostatni/IMG_4041.jpg" data-image="images/ostatni/IMG_4041.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4044.jpg" data-src="images/ostatni/IMG_4044.jpg" data-image="images/ostatni/IMG_4044.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4046.jpg" data-src="images/ostatni/IMG_4046.jpg" data-image="images/ostatni/IMG_4046.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4048.jpg" data-src="images/ostatni/IMG_4048.jpg" data-image="images/ostatni/IMG_4048.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4050.jpg" data-src="images/ostatni/IMG_4050.jpg" data-image="images/ostatni/IMG_4050.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4069.jpg" data-src="images/ostatni/IMG_4069.jpg" data-image="images/ostatni/IMG_4069.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4080.jpg" data-src="images/ostatni/IMG_4080.jpg" data-image="images/ostatni/IMG_4080.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4084.jpg" data-src="images/ostatni/IMG_4084.jpg" data-image="images/ostatni/IMG_4084.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4092.jpg" data-src="images/ostatni/IMG_4092.jpg" data-image="images/ostatni/IMG_4092.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4093.jpg" data-src="images/ostatni/IMG_4093.jpg" data-image="images/ostatni/IMG_4093.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4098.jpg" data-src="images/ostatni/IMG_4098.jpg" data-image="images/ostatni/IMG_4098.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4101.jpg" data-src="images/ostatni/IMG_4101.jpg" data-image="images/ostatni/IMG_4101.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4103.jpg" data-src="images/ostatni/IMG_4103.jpg" data-image="images/ostatni/IMG_4103.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4108.jpg" data-src="images/ostatni/IMG_4108.jpg" data-image="images/ostatni/IMG_4108.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4110.jpg" data-src="images/ostatni/IMG_4110.jpg" data-image="images/ostatni/IMG_4110.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4112.jpg" data-src="images/ostatni/IMG_4112.jpg" data-image="images/ostatni/IMG_4112.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4130.jpg" data-src="images/ostatni/IMG_4130.jpg" data-image="images/ostatni/IMG_4130.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4133.jpg" data-src="images/ostatni/IMG_4133.jpg" data-image="images/ostatni/IMG_4133.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4137.jpg" data-src="images/ostatni/IMG_4137.jpg" data-image="images/ostatni/IMG_4137.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4143.jpg" data-src="images/ostatni/IMG_4143.jpg" data-image="images/ostatni/IMG_4143.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4149.jpg" data-src="images/ostatni/IMG_4149.jpg" data-image="images/ostatni/IMG_4149.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4153.jpg" data-src="images/ostatni/IMG_4153.jpg" data-image="images/ostatni/IMG_4153.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/ostatni/IMG_4159.jpg" data-src="images/ostatni/IMG_4159.jpg" data-image="images/ostatni/IMG_4159.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    </div>
 </div>
 
 <footer class="w3-center w3-black w3-padding-64">
