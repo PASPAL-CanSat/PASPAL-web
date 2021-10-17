@@ -18,10 +18,10 @@ define("_DATA2", "Úspěšných testů");
 define("_DATA3", "Řádků kódů");
 define("_DATA4", "Počet pokusů");
 
-define("_TEXT3", "Co znamená slovo CanSat?");
+define("_TEXT3", "Co je soutěž CanSat");
 define("_TEXT4", "CanSat je malý meteorologický satelit o velikosti plechovky. Tuto studentskou soutěž pořádá vzdělávací kancelář Evropské kosmické agentury ESERO. Tým má za úkol sestrojit napodobeninu skutečného satelitu, který má rozměry ve velikosti plechovky a také by měl postupovat, jako skutečný satelit. Do velikosti plechovky se musí vejít všechny řídící jednotky, senzory až po baterie a napájení. Týmy musí pomocí satelitu měřit tři základní informace jako GPS lokaci, teplotu a atmosférický tlak. Také musí zvolit sekundární misi (v našem případě měření methanu, oxidu uhličitého a kyslíku). Hlavním cílem je naměřená data analyzovat. Data budou odesílána do pozemní stanice, kde se vyhodnotí a případně zasadí do širšího kontextu celé mise. Satelit bude vynesen dronem popř. letadlem do výšky 1km a musí  bezpečně dopadnou, aby byl využit pro další analyzování dat která budou uložena na SD kartě. Na závěr musí týmy celou misi odprezentovat odborné porotě. ");
 
-define("_TEXT5", "Náš satelit jsme pojmenovali SpaceCan. Jako primární misi musí měřit teplotu, atmosférický tlak a GPS. Na naší sekundární misi jsme si připravili zkoumání podmínek pro život organismů (měření methanu, kyslíku a oxidu uhličitého v atmosféře). Hodnoty poté analyzujeme a dáme do tabulek. Data porovnáme se staršími daty a zjistíme, jak se zhoršuje naše atmosféra. Také budeme měřit metan, a porovnáme se staršími záznamy, které nám řeknou, jak se zvětšila nebo zmenšila exploze s kyslíkem. Dále jsme se rozhodli, že náš satelit bude velice ekologický, budeme využívat přírodní zdroje. Vymysleli jsme, že dáme okolo solární panely pro napájení satelitu. ");
+define("_TEXT5", "Náš satelit jsme pojmenovali SpaceCan. Jako primární misi (která je povinná a stejná pro všechny týmy) musí měřit teplotu, atmosférický tlak a GPS. Sekundární misi už si každý tým vymýšlí sám, oproti minulému roku, kdy jsme zkoumali podmínky pro život na planetě bude náš satelit tento rok pořizovat snímky a videozáznam. Rozhodli jsme se, že náš satelit bude ekologický, budeme proto využívat přírodní zdroje. Vymysleli jsme, že umístíme okolo satelitu solární panely, které budou sloužit jako napájení satelitu.");
 
 define("_TEXT6", "SEZNAM ČLENŮ");
 define("_TEAM1", "Kapitán teamu");
