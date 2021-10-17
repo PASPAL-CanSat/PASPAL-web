@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4de7d0a-b5e9-4ffb-bc12-0e9656396723" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/galerie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PASPAL-web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4030.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4031.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4032.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4033.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4034.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4036.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4040.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4041.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4046.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4049.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4050.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4052.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4054.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4056.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4060.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4062.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4065.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4067.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4069.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4070.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4071.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4072.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4076.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4083.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4084.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4086.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4088.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4089.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4092.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4093.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4094.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4096.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4098.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4137.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4142.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4154.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4155.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4157.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ostatni/IMG_4160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang_cz.php" beforeDir="false" afterPath="$PROJECT_DIR$/lang_cz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang_en.php" beforeDir="false" afterPath="$PROJECT_DIR$/lang_en.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zdt3TxiWNykOtqWmVnNO0a2DO8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/live.paspal" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\Home\home\Drive\Práce\Paspal\web\images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4de7d0a-b5e9-4ffb-bc12-0e9656396723" name="Changes" comment="" />
+      <created>1634489595040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634489595040</updated>
+      <workItem from="1634489600659" duration="2203000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

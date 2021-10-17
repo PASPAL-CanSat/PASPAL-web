@@ -8,6 +8,7 @@ define("_NAV5", "NÁŠ TEAM");
 define("_NAV6", "NOVINKY");
 define("_NAV7", "PARTNEŘI");
 define("_NAV8", "LIVE (BETA)");
+define("_NAV9", "GALERIE");
 
 define("_TEXT1", "Název PASPAL byl vytvořen spojením slov Private Association Studying Planets Appropriate (for) Life. Soukromá asociace studující planety vhodné pro život. ");
 define("_TEXT2", "Tým PASPAL tvoří šest studenů Střední průmyslově školy POJ-FM, která se nachází ve Frýdku-Místku. Náš tým se poprvé sešel na konci listopadu 2020, kdy jsme se domluvili, kdo bude pracovat na čem. Také jsme řešili jakou zvolíme sekundární misi. Práce na projektu probíhá na schůzkách každý týden v učebnách mechatroniky nebo online přes Teams. Z počátku jsme se setkávali online, kde jsme řešili management, webové stránky a součástky na sekundární misi. Celý náš postup můžete sledovat zde, na webových stránkách nebo na sociálních sítích, kde rozjíždíme soutěž o hodnotné ceny.");

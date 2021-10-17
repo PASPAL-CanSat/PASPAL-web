@@ -8,6 +8,7 @@ define("_NAV5", "OUR TEAM");
 define("_NAV6", "NEWS");
 define("_NAV7", "PARTNERS");
 define("_NAV8", "LIVE (BETA)");
+define("_NAV9", "GALLERY");
 
 define("_TEXT1", "The name PASPAL was created by our clever team member, who combined the words Private Association Studying Planets Appropriate (for) Life. Private association studying planets suitable for life.");
 define("_TEXT2", "The PASPAL team consists of six students of the Secondary Technical School POJFM, which is located in Frýdek-Místek. Our team first met at the end of November 2020, when we agreed on who will do each part. We also dealt with a secondary mission. Work on the project takes place in meetings every week in mechatronics classrooms or online via Teams. From the beginning, we met online and we delt with management, websites and components for the secondary mission. You can follow our entire process here, on the website or on social networks, where we launch a competition for valuable prizes.");
