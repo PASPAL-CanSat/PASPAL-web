@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4de7d0a-b5e9-4ffb-bc12-0e9656396723" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/images/2560px-Aliexpress_logo.svg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang_cz.php" beforeDir="false" afterPath="$PROJECT_DIR$/lang_cz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galerie.php" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang_cz.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang_en.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,19 +20,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1zdt3TxiWNykOtqWmVnNO0a2DO8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/live.paspal" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "H:/Drive/Práce/Paspal/web",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\Home\home\Drive\Práce\Paspal\web\images\" />
+      <recent name="\\Home\home\Drive\Práce\Paspal\web\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="\\Home\home\Drive\Práce\Paspal\web\images" />
     </key>
@@ -41,7 +52,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634489595040</updated>
-      <workItem from="1634489600659" duration="2825000" />
+      <workItem from="1634489600659" duration="3016000" />
+      <workItem from="1634572729222" duration="16000" />
+      <workItem from="1642332912442" duration="44000" />
+      <workItem from="1642333065529" duration="1015000" />
+      <workItem from="1651497098798" duration="16000" />
+      <workItem from="1652726467356" duration="1529000" />
     </task>
     <servers />
   </component>

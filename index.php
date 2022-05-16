@@ -1,20 +1,25 @@
 <?php
 session_start();
-
 // Set Language variable
 if(isset($_GET['lang']) && !empty($_GET['lang'])){
-    $_SESSION['lang'] = $_GET['lang'];
-
+    if(isset($_SESSION['lang']) && $_SESSION['lang'] != $_GET['lang']) {
+        $_SESSION['lang'] = $_GET['lang'];
+        header("Location: https://paspal.space");
+        die();
+    }
+    else {
+        $_SESSION['lang'] = $_GET['lang'];
+    }
     if(isset($_SESSION['lang']) && $_SESSION['lang'] != $_GET['lang']){
         echo "<script type='text/javascript'> location.reload(); </script>";
     }
 }
-
 // Include Language file
-if(isset($_SESSION['lang'])){
-    include "lang_".$_SESSION['lang'].".php";
-}else{
-    include "lang_cz.php";
+if(isset($_SESSION['lang']) && file_exists("langs/lang_".$_SESSION['lang'].".php")){
+    include "langs/lang_".$_SESSION['lang'].".php";
+}
+else{
+    include "langs/lang_cz.php";
 }
 ?>
 
@@ -35,10 +40,16 @@ if(isset($_SESSION['lang'])){
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
     <link rel="icon" href="images/logo.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5MRKD5HTBW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-5MRKD5HTBW');
+    </script>
 </head>
-
 <body>
-
 <div class="w3-top">
     <div class="w3-bar" id="myNavbar">
         <a class="w3-bar-item w3-button w3-hover-black w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
@@ -52,12 +63,10 @@ if(isset($_SESSION['lang'])){
         <a href="#news" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV6 ?></a>
         <a href="#sponzors" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV7 ?></a>
         <a href="galerie.php" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV9 ?></a>
-        <a href="https://live.paspal.space/" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV8 ?></a>
-
+        <a href="https://live.paspal.space/" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV8 ?></a>
         <a href="https://paspal.space/?lang=cz" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-right">CZ</a>
         <a href="https://paspal.space/?lang=en" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-right">EN</a>
     </div>
-
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large">
         <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"><?= _NAV2 ?></a>
         <a href="#cansat" class="w3-bar-item w3-button" onclick="toggleFunction()"><?= _NAV3 ?></a>
@@ -66,8 +75,7 @@ if(isset($_SESSION['lang'])){
         <a href="#news" class="w3-bar-item w3-button" onclick="toggleFunction()"><?= _NAV6 ?></a>
         <a href="#sponzors" class="w3-bar-item w3-button" onclick="toggleFunction()"><?= _NAV7 ?></a>
         <a href="galerie.php" class="w3-bar-item w3-button" onclick="toggleFunction()"><?= _NAV9 ?></a>
-        <a href="https://live.paspal.space/" class="w3-bar-item w3-button" onclick="toggleFunction()"><?= _NAV8 ?></a>
-
+        <a href="https://live.paspal.space/" target="_blank" class="w3-bar-item w3-button" onclick="toggleFunction()"><?= _NAV8 ?></a>
         <a href="https://paspal.space/?lang=cz" class="w3-bar-item w3-button w3-right">CZ</a>
         <a href="https://paspal.space/?lang=en" class="w3-bar-item w3-button w3-right">EN</a>
     </div>
@@ -87,21 +95,19 @@ if(isset($_SESSION['lang'])){
         <div class="w3-col m6 w3-center" style="margin-top: 25px; padding-right: 9%;">
             <img src="images/logo.png" class="w3-round w3-image" alt="Photo" width="250" height="150">
         </div>
-
         <div class="w3-col m6">
             <p><?= _TEXT2 ?></p>
         </div>
     </div>
-    <iframe width="100%" height="512px" class="container" src="https://www.youtube.com/embed/A83C6GE7m7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
     <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">28</span><br>
+        <span class="w3-xlarge">30</span><br>
         <?= _DATA1 ?>
     </div>
     <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">0</span><br>
+        <span class="w3-xlarge">1</span><br>
         <?= _DATA2 ?>
     </div>
     <div class="w3-quarter w3-section">
@@ -109,11 +115,10 @@ if(isset($_SESSION['lang'])){
         <?= _DATA3 ?>
     </div>
     <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">1</span><br>
+        <span class="w3-xlarge">3</span><br>
         <?= _DATA4 ?>
     </div>
 </div>
-
 
 <div class="bgimg-2 w3-display-container">
     <div class="w3-display-middle">
@@ -153,52 +158,42 @@ if(isset($_SESSION['lang'])){
                 <img src="images/profily/Jirka.png" class="w3-bar-item w3-circle w3-hide-small" style="width:100px">
                 <div class="w3-bar-item">
                     <span class="w3-large">Jiří Ryška</span><br>
-                    <span><?= _TEAM1 ?> |</span>
-                    <span>Management</span>
+                    <span>Team Captain, Management</span>
                 </div>
             </li>
-
             <li class="w3-bar">
                 <img src="images/profily/Marek.png" class="w3-bar-item w3-circle w3-hide-small" style="width:100px">
                 <div class="w3-bar-item">
                     <span class="w3-large">Marek Kozel</span><br>
-                    <span>Hardware</span>
+                    <span>Communication, Heating</span>
                 </div>
             </li>
-
             <li class="w3-bar">
                 <img src="images/profily/Jonáš.png" class="w3-bar-item w3-circle w3-hide-small" style="width:100px">
                 <div class="w3-bar-item">
                     <span class="w3-large">Jonáš Židek</span><br>
-                    <span>Website |</span>
-                    <span>Software</span>
+                    <span>Website, Graphics Design</span>
                 </div>
             </li>
-
             <li class="w3-bar">
                 <img src="images/profily/Partik.png" class="w3-bar-item w3-circle w3-hide-small" style="width:100px">
                 <div class="w3-bar-item">
                     <span class="w3-large">Patrik Glomb</span><br>
-                    <span><?= _TEAM4 ?> |</span>
-                    <span><?= _TEAM10 ?></span>
+                    <span>Programming, Graphics Design</span>
                 </div>
             </li>
-
             <li class="w3-bar">
                 <img src="images/profily/Filip.png" class="w3-bar-item w3-circle w3-hide-small" style="width:100px">
                 <div class="w3-bar-item">
                     <span class="w3-large">Filip Gardoš</span><br>
-                    <span><?= _TEAM5 ?> |</span>
-                    <span><?= _TEAM11 ?></span>
+                    <span>Parachute, Data</span>
                 </div>
             </li>
-
             <li class="w3-bar">
                 <img src="images/profily/Ondra.png" class="w3-bar-item w3-circle w3-hide-small" style="width:100px">
                 <div class="w3-bar-item">
                     <span class="w3-large">Ondřej Zahorán</span><br>
-                    <span><?= _TEAM6 ?> |</span>
-                    <span><?= _TEAM12 ?></span>
+                    <span>Hardware, 3D modeling</span>
                 </div>
             </li>
         </ul>
@@ -292,9 +287,6 @@ if(isset($_SESSION['lang'])){
     </div>
     <div class="w3-row w3-hide-small w3-hide-medium">
         <div class="w3-col s2">
-            <p></p>
-        </div>
-        <div class="w3-col s2">
             <center><a href="https://www.chapes.cz/" target="_blank"><img src="images/chapes.png" class="w3-bar-item w3-circle" style="width:100%;max-width:95px;"></a></center>
         </div>
         <div class="w3-col s2">
@@ -307,7 +299,10 @@ if(isset($_SESSION['lang'])){
             <center><a href="https://www.solartec.eu/" target="_blank"><img src="images/SOLARTEC.jpeg" class="w3-bar-item" style="width:100%;max-width:150px;padding-top: 20px;"></a></center>
         </div>
         <div class="w3-col s2">
-            <p></p>
+            <center><a href="https://www.aliexpress.com/" target="_blank"><img src="images/2560px-Aliexpress_logo.svg.png" class="w3-bar-item" style="width:100%;max-width:150px;padding-top: 40px;"></a></center>
+        </div>
+        <div class="w3-col s2">
+            <center><a href="https://www.newdimension.cz/" target="_blank"><img src="images/newdimension.png" class="w3-bar-item" style="width:100%;max-width:150px;margin-top: 40px; padding: 10px; background-color: black"></a></center>
         </div>
     </div>
     <div class="w3-row w3-hide-small w3-hide-medium">
@@ -343,7 +338,7 @@ if(isset($_SESSION['lang'])){
         <a href="https://www.youtube.com/channel/UC7gtm3pSgp-xXV9Ppiytk7A" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
         <a href="mailto: info@paspal.space" target="_blank"><i class="fa fa-envelope w3-hover-opacity"></i></a>
     </div>
-    <p>&copy; PASPAL.SPACE <?= date("Y") ?> | <?= _VERSION ?>: v.1.13.0</p>
+    <p>&copy; PASPAL.SPACE <?= date("Y") ?></p>
     <p> Email: info@paspal.space | <?= _TELCISLO ?>: 778 076 787</p>
 </footer>
 
@@ -351,13 +346,13 @@ if(isset($_SESSION['lang'])){
     function onClick(element) {
         document.getElementById("img01").src = element.src;
         document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
+        let captionText = document.getElementById("caption");
         captionText.innerHTML = element.alt;
     }
 
     window.onscroll = function() {myFunction()};
     function myFunction() {
-        var navbar = document.getElementById("myNavbar");
+        let navbar = document.getElementById("myNavbar");
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
             navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
         } else {
@@ -366,7 +361,7 @@ if(isset($_SESSION['lang'])){
     }
 
     function toggleFunction() {
-        var x = document.getElementById("navDemo");
+        let x = document.getElementById("navDemo");
         if (x.className.indexOf("w3-show") == -1) {
             x.className += " w3-show";
         } else {
