@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4de7d0a-b5e9-4ffb-bc12-0e9656396723" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/2560px-Aliexpress_logo.svg.png" afterDir="false" />
+    <list default="true" id="d4de7d0a-b5e9-4ffb-bc12-0e9656396723" name="Changes" comment="Úprava stránek - přidání nového sponzora">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/galerie.php" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang_cz.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang_en.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,13 +24,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "H:/Drive/Práce/Paspal/web",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Drive/Práce/Paspal/web&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\Home\home\Drive\Práce\Paspal\web\images\" />
@@ -57,8 +53,17 @@
       <workItem from="1642332912442" duration="44000" />
       <workItem from="1642333065529" duration="1015000" />
       <workItem from="1651497098798" duration="16000" />
-      <workItem from="1652726467356" duration="1529000" />
+      <workItem from="1652726467356" duration="1664000" />
+      <workItem from="1652816961262" duration="400000" />
     </task>
+    <task id="LOCAL-00001" summary="Úprava stránek - přidání nového sponzora">
+      <created>1652728070742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652728070742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,5 +79,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Úprava stránek - přidání nového sponzora" />
+    <option name="LAST_COMMIT_MESSAGE" value="Úprava stránek - přidání nového sponzora" />
   </component>
 </project>
