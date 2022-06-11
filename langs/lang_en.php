@@ -37,6 +37,8 @@ define("_TEXT7", "Everything from social networks");
 
 define("_TEXT8", "Thank you");
 
+define("_TEXT9", "GALLERY");
+
 define("_BUTTON1", "Back to top");
 define("_VERSION", "Version");
 define("_TELCISLO", "Phone");

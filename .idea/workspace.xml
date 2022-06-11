@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4de7d0a-b5e9-4ffb-bc12-0e9656396723" name="Changes" comment="Přidané soubory" />
+    <list default="true" id="d4de7d0a-b5e9-4ffb-bc12-0e9656396723" name="Changes" comment="Přidané loga do mobilní verze">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galerie.php" beforeDir="false" afterPath="$PROJECT_DIR$/galerie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/langs/lang_en.php" beforeDir="false" afterPath="$PROJECT_DIR$/langs/lang_en.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +17,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/galerie.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/phone-sponzors.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,6 +44,7 @@
       <recent name="\\Home\home\Drive\Práce\Paspal\web\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Drive\Práce\Paspal\web\images\galerie" />
       <recent name="\\Home\home\Drive\Práce\Paspal\web\images" />
     </key>
   </component>
@@ -52,6 +63,9 @@
       <workItem from="1651497098798" duration="16000" />
       <workItem from="1652726467356" duration="1664000" />
       <workItem from="1652816961262" duration="615000" />
+      <workItem from="1652817636888" duration="826000" />
+      <workItem from="1652989084300" duration="2616000" />
+      <workItem from="1654972123468" duration="1529000" />
     </task>
     <task id="LOCAL-00001" summary="Úprava stránek - přidání nového sponzora">
       <created>1652728070742</created>
@@ -74,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652817565394</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Přidané loga do mobilní verze">
+      <created>1652817863686</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652817863687</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +116,7 @@
     <MESSAGE value="Úprava stránek - přidání nového sponzora" />
     <MESSAGE value="Oprava galerie.php" />
     <MESSAGE value="Přidané soubory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Přidané soubory" />
+    <MESSAGE value="Přidané loga do mobilní verze" />
+    <option name="LAST_COMMIT_MESSAGE" value="Přidané loga do mobilní verze" />
   </component>
 </project>

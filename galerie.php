@@ -56,12 +56,12 @@ else{
         <a class="w3-bar-item w3-button w3-hover-black w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
             <i class="fa fa-bars"></i>
         </a>
-        <a href="index.php" class="w3-bar-item w3-button"><?= _NAV ?></a>
+        <a href="https://paspal.space/" class="w3-bar-item w3-button"><?= _NAV ?></a>
         <a href="https://paspal.space/?lang=cz" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-right">CZ</a>
         <a href="https://paspal.space/?lang=en" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-right">EN</a>
     </div>
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large">
-        <a href="index.php" class="w3-bar-item w3-button" onclick="toggleFunction()"><?= _NAV ?></a>
+        <a href="https://paspal.space/" class="w3-bar-item w3-button" onclick="toggleFunction()"><?= _NAV ?></a>
 
         <a href="https://paspal.space/?lang=cz" class="w3-bar-item w3-button w3-right">CZ</a>
         <a href="https://paspal.space/?lang=en" class="w3-bar-item w3-button w3-right">EN</a>
@@ -76,7 +76,52 @@ else{
 
 <div class="w3-content w3-container w3-padding-64" id="news">
     <h3>18.5.2022 - Veřejná akce (testování satelitu se sponzory)</h3>
-    <p>Fotky budou dostupné již brzy!</p>
+    <div class="w3-row">
+        <section>
+            <div class="rt-container">
+                <div class="col-rt-12">
+                    <div class="Scriptcontent">
+                        <section>
+                            <div class="gallery">
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/20220518_160722.jpg" data-src="images/galerie/letiste_baska/20220518_160722.jpg" data-image="images/galerie/letiste_baska/20220518_160722.jpg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/20220518_160732.jpg" data-src="images/galerie/letiste_baska/20220518_160732.jpg" data-image="images/galerie/letiste_baska/20220518_160732.jpg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/20220518_180413.jpg" data-src="images/galerie/letiste_baska/20220518_180413.jpg" data-image="images/galerie/letiste_baska/20220518_180413.jpg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/IMG-20220518-WA0000.jpg" data-src="images/galerie/letiste_baska/IMG-20220518-WA0000.jpg" data-image="images/galerie/letiste_baska/IMG-20220518-WA0000.jpg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/IMG-20220518-WA0000.jpg" data-src="images/galerie/letiste_baska/IMG-20220518-WA0000.jpg" data-image="images/galerie/letiste_baska/IMG-20220518-WA0000.jpg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/IMG-20220518-WA0002.jpg" data-src="images/galerie/letiste_baska/IMG-20220518-WA0002.jpg" data-image="images/galerie/letiste_baska/IMG-20220518-WA0002.jpg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/IMG-20220518-WA0004.jpg" data-src="images/galerie/letiste_baska/IMG-20220518-WA0004.jpg" data-image="images/galerie/letiste_baska/IMG-20220518-WA0004.jpg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/IMG-20220518-WA0005.jpg" data-src="images/galerie/letiste_baska/IMG-20220518-WA0005.jpg" data-image="images/galerie/letiste_baska/IMG-20220518-WA0005.jpg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/IMG-20220518-WA0009.jpg" data-src="images/galerie/letiste_baska/IMG-20220518-WA0009.jpg" data-image="images/galerie/letiste_baska/IMG-20220518-WA0009.jpg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/letiste_baska/received_748624982974592.jpeg" data-src="images/galerie/letiste_baska/received_748624982974592.jpeg" data-image="images/galerie/letiste_baska/received_748624982974592.jpeg" data-title="Galerie fotek ze dne 18.05.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    </div>
 </div>
 
 <div class="w3-content w3-container w3-padding-64" id="news">
@@ -165,6 +210,71 @@ else{
                                 </div>
                                 <div class="gallery-item item-4x4">
                                     <img class="thumb placeholder" src="images/ostatni/mensi/IMG_4159.jpg" data-src="images/ostatni/mensi/IMG_4159.jpg" data-image="images/ostatni/IMG_4159.jpg" data-title="Galerie fotek ze dne 10.09.2021" alt="Galerie fotek ze dne 10.09.2021">
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="script.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="news">
+    <h3>7. - 8.9.2022 - Soutěž CanSat</h3>
+    <div class="w3-row">
+        <section>
+            <div class="rt-container">
+                <div class="col-rt-12">
+                    <div class="Scriptcontent">
+                        <section>
+                            <div class="gallery">
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/1.jpg" data-src="images/galerie/1.jpg" data-image="images/galerie/1.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/2.jpg" data-src="images/galerie/2.jpg" data-image="images/galerie/2.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/3.jpg" data-src="images/galerie/3.jpg" data-image="images/galerie/3.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/4.jpg" data-src="images/galerie/4.jpg" data-image="images/galerie/4.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/5.jpg" data-src="images/galerie/5.jpg" data-image="images/galerie/5.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/6.jpg" data-src="images/galerie/6.jpg" data-image="images/galerie/6.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/7.jpg" data-src="images/galerie/7.jpg" data-image="images/galerie/7.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/8.jpg" data-src="images/galerie/8.jpg" data-image="images/galerie/8.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/9.jpg" data-src="images/galerie/9.jpg" data-image="images/galerie/9.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/10.jpg" data-src="images/galerie/10.jpg" data-image="images/galerie/10.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/11.jpg" data-src="images/galerie/11.jpg" data-image="images/galerie/11.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/12.jpg" data-src="images/galerie/12.jpg" data-image="images/galerie/12.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/13.jpg" data-src="images/galerie/13.jpg" data-image="images/galerie/13.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/14.jpg" data-src="images/galerie/14.jpg" data-image="images/galerie/14.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
+                                </div>
+                                <div class="gallery-item item-4x4">
+                                    <img class="thumb placeholder" src="images/galerie/15.jpg" data-src="images/galerie/15.jpg" data-image="images/galerie/15.jpg" data-title="Galerie fotek ze dne 7. - 8.9.2022" alt="Galerie fotek ze dne 18.05.2022">
                                 </div>
                             </div>
                         </section>

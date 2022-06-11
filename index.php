@@ -62,7 +62,7 @@ else{
         <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV5 ?></a>
         <a href="#news" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV6 ?></a>
         <a href="#sponzors" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV7 ?></a>
-        <a href="galerie.php" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV9 ?></a>
+        <a href="https://paspal.space/galerie" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV9 ?></a>
         <a href="https://live.paspal.space/" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><?= _NAV8 ?></a>
         <a href="https://paspal.space/?lang=cz" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-right">CZ</a>
         <a href="https://paspal.space/?lang=en" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-right">EN</a>
@@ -111,11 +111,11 @@ else{
         <?= _DATA2 ?>
     </div>
     <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">900</span>+<br>
+        <span class="w3-xlarge">1,200</span>+<br>
         <?= _DATA3 ?>
     </div>
     <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">3</span><br>
+        <span class="w3-xlarge">5</span><br>
         <?= _DATA4 ?>
     </div>
 </div>
