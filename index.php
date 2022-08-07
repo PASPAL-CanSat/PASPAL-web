@@ -107,7 +107,7 @@ else{
         <?= _DATA1 ?>
     </div>
     <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">1</span><br>
+        <span class="w3-xlarge">2</span><br>
         <?= _DATA2 ?>
     </div>
     <div class="w3-quarter w3-section">
